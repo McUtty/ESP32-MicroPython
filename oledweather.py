@@ -1,3 +1,4 @@
+# How to - show Data from BMP180 on Oled
 from bmp180 import BMP180
 from machine import I2C, Pin
 import ssd1306, time
