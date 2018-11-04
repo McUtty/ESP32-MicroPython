@@ -1,3 +1,4 @@
+# Scan I2C Register from an MPU6050
 from machine import I2C, Pin
 from time import sleep_ms
 import mpu6050
@@ -13,7 +14,3 @@ while (count <= 117):
     print('{}-{}'.format(hex(count), scale))
     count += 1
     sleep_ms(500)
-
-
-#0x40-b't\xee\xb0\xfc2\xff\x9c\xff'
-#0x41-b'\xee\xd0\xfcC\xff\x8a\xff\xf0'
