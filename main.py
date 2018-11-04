@@ -1,3 +1,4 @@
+# small WatherStation DEMO
 import oledweather
 import movement
 from time import sleep_ms
