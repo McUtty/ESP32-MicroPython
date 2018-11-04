@@ -1,3 +1,4 @@
+# small DEMO - read Data from Chirp without "chirlib.py"
 from time import sleep
 import machine
 import ustruct
