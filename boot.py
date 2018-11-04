@@ -16,7 +16,7 @@ def connect():
         for net in ssidlist:
             #print(net)
             if net == 'UT-VNet':
-                sta_if.connect('UT-VNet', '43246641485350293845')
+                sta_if.connect('WLAN', 'xxxPASSWORDxxx')
                 while not sta_if.isconnected():
                     print('connecting ...')
                     sleep_ms(500)
