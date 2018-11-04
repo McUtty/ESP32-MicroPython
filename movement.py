@@ -1,3 +1,4 @@
+# How to use an MPU6050 with MicroPhython by using the "mpu6050" lib
 from machine import I2C, Pin
 import mpu6050, ssd1306
 from time import sleep_ms
