@@ -1,5 +1,5 @@
 # Orig. chirplib.py
-# https://wemakethings.net/chirp/
+# https://wemakethings.net/chirp
 
 import time
 import ustruct
