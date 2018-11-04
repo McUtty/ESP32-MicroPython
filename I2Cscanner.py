@@ -2,6 +2,7 @@
 # Renvoi l'adresse en decimal et hexa de chaque device connecte sur le bus i2c
 # Return decimal and hexa adress of each i2c device
 # https://projetsdiy.fr - https://diyprojects.io (dec. 2017)
+# https://www.makerspace-minden.de (2018)
 
 import machine
 i2c = machine.I2C(scl=machine.Pin(4), sda=machine.Pin(5))
