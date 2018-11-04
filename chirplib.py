@@ -1,3 +1,6 @@
+# Orig. chirplib.py
+# https://wemakethings.net/chirp/
+
 import time
 import ustruct
 from machine import I2C, Pin
