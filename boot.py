@@ -15,15 +15,15 @@ def connect():
 
         for net in ssidlist:
             #print(net)
-            if net == 'UT-VNet':
-                sta_if.connect('WLAN', 'xxxPASSWORDxxx')
+            if net == 'WLAN1':
+                sta_if.connect('WLAN1', 'xxxPASSWORDxxx')
                 while not sta_if.isconnected():
                     print('connecting ...')
                     sleep_ms(500)
                 break
 
-            if str(net) == 'Taubald':
-                sta_if.connect('Taubald', '62846088313536200468')
+            if str(net) == 'WLAN2':
+                sta_if.connect('WLAN2', 'xxxPASSWORDxxx')
                 while not sta_if.isconnected():
                     print('connecting ...')
                     sleep_ms(500)
