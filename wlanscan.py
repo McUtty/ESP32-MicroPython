@@ -1,3 +1,4 @@
+# How to - Scan local WLAN
 import network
 import esp
 
