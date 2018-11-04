@@ -1,3 +1,4 @@
+#small DEMO - with using the "chirplib.py"
 import chirplib
 
 #Init Chirp Lib
