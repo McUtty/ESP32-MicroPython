@@ -1,3 +1,5 @@
+#Boot.py with WLAN-Scan
+
 def connect():
     import network
     import wlanscan
