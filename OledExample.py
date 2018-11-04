@@ -1,18 +1,18 @@
 """
 We then have some methods to manage the display:
 
-poweroff(), turns off the screen. Convenient for battery operation.
-contrast(), to adjust the contrast
-invert(), invert the colors of the screen (finally white and black!)
-show(), to refresh the view
-fill(), to fill the screen in black (1) or white (0)
-pixel(), to turn on a particular pixel
-scroll(), scroll the screen.
-text(), to display on text at the indicated x, y position
-Draw lines hline(sx,sy,ex,ey,tl) - start-x, start-y, end-x, end-y, line thikness
-vline(sx,sy,ex,ey,tl) - start-x, start-y, end-x, end-y, line thikness
-or any line line()
-Draw a rect rect rectangle() or rectangle filled fill_rect()
+- poweroff(), turns off the screen. Convenient for battery operation.
+- contrast(), to adjust the contrast
+- invert(), invert the colors of the screen (finally white and black!)
+- show(), to refresh the view
+- fill(), to fill the screen in black (1) or white (0)
+- pixel(), to turn on a particular pixel
+- scroll(), scroll the screen.
+- text(), to display on text at the indicated x, y position
+- Draw lines hline(sx,sy,ex,ey,tl) - start-x, start-y, end-x, end-y, line thikness
+- vline(sx,sy,ex,ey,tl) - start-x, start-y, end-x, end-y, line thikness
+- a simple line line()
+- Draw a rect rect rectangle() or rectangle filled fill_rect()
 """
 import machine, ssd1306
 
