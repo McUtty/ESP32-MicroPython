@@ -1,3 +1,4 @@
+# DEMO - Use one capacity-Pin as an "Touch-Switch"
 from machine import Pin, TouchPad
 from time import sleep
 
