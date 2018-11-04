@@ -1,4 +1,4 @@
-# ESP32
+# ESP32 - MicroPython
 Some MicroPython Code Snippet for use with ESP32
 ------------------------------------------------
 to play with:
