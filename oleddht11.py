@@ -1,3 +1,4 @@
+# How to - use DHT11 and show on Oled
 from machine import Pin, I2C
 import dht
 import ssd1306
